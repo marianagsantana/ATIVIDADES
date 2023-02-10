@@ -169,6 +169,10 @@ internal class ListaUm
                     Console.WriteLine("O valor do imposto é: " + imposto4);
                 }
                 break;        
+
+            default:
+                Console.WriteLine("Exercício não encontrado");
+                break;
         }
 
 }

@@ -1,8 +1,8 @@
-namespace atividade
+﻿namespace atividade
 {   
 
 }
-internal class Lista2
+internal class ListaDois
 {
     public static void Main(string[] args)
     {
@@ -41,7 +41,6 @@ internal class Lista2
                     Console.WriteLine("Reprovado");
                 }
                 break;
-
             case 2:
                 Console.WriteLine("Digite o número do mês: ");
                 int mes = int.Parse(Console.ReadLine());
