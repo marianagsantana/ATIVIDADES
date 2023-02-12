@@ -91,9 +91,9 @@ internal class ListaUm
                 break;
 
             case 6:
-                Console.WriteLine("Digite a distância percorrida: ");
+                Console.WriteLine("Digite a distância percorrida em km: ");
                 double distancia = double.Parse(Console.ReadLine());
-                Console.WriteLine("Digite o tempo gasto: ");
+                Console.WriteLine("Digite o tempo gasto em h: ");
                 double tempo = double.Parse(Console.ReadLine());
                 double velocidade = distancia / tempo;
                 Console.WriteLine("A velocidade média é: " + velocidade);
@@ -102,8 +102,32 @@ internal class ListaUm
             case 7:
                 Console.WriteLine("Digite o valor do salário: ");
                 double salario = double.Parse(Console.ReadLine());
-                double imposto = salario * 0.27;
-                Console.WriteLine("O valor do imposto é: " + imposto);
+                
+                if{
+                    salario <= 1903.98
+                    Console.WriteLine("Isento");
+                }
+                else if{
+                    salario >= 1903.99 && salario <= 2826.65
+                    double imposto = salario * 0.075;
+                    Console.WriteLine("O valor do imposto é: " + imposto);
+                }
+                else if{
+                    salario >= 2826.66 && salario <= 3751.05
+                    double imposto = salario * 0.15;
+                    Console.WriteLine("O valor do imposto é: " + imposto);
+                }
+                else if{
+                    salario >= 3751.06 && salario <= 4664.68
+                    double imposto = salario * 0.225;
+                    Console.WriteLine("O valor do imposto é: " + imposto);
+                }
+                else{
+                    salario >= 4664.68
+                    double imposto = salario * 0.275;
+                    Console.WriteLine("O valor do imposto é: " + imposto);
+                }
+
                 break;
 
             case 8:
@@ -137,7 +161,7 @@ internal class ListaUm
             case 10:
                 Console.WriteLine("Digite o valor do ponto: ");
                 double ponto = double.Parse(Console.ReadLine());
-                string pontoString = ponto.ToString();
+                string pontoString = ((int)ponto).ToString();
                 Console.WriteLine("O valor do ponto em String é: " + pontoString);
                 break;
 

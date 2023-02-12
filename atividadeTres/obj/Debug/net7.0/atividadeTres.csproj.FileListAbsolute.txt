@@ -1,0 +1,15 @@
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\bin\Debug\net7.0\atividadeTres.exe
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\bin\Debug\net7.0\atividadeTres.deps.json
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\bin\Debug\net7.0\atividadeTres.runtimeconfig.json
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\bin\Debug\net7.0\atividadeTres.dll
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\bin\Debug\net7.0\atividadeTres.pdb
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.csproj.AssemblyReference.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.AssemblyInfoInputs.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.AssemblyInfo.cs
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.dll
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\refint\atividadeTres.dll
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.pdb
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\atividadeTres.genruntimeconfig.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeTres\obj\Debug\net7.0\ref\atividadeTres.dll

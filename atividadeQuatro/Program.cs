@@ -78,12 +78,10 @@ internal class ListaQuatro
             }
             break;
 
-        case 5:
-            string[] baralho = {"Ás de Copas", "2 de Copas", "3 de Copas", "4 de Copas", "5 de Copas", "6 de Copas", "7 de Copas", "8 de Copas", "9 de Copas", "10 de Copas", "Valete de Copas", "Dama de Copas", "Rei de Copas", "Ás de Espadas", "2 de Espadas", "3 de Espadas", "4 de Espadas", "5 de Espadas", "6 de Espadas", "7 de Espadas", "8 de Espadas", "9 de Espadas", "10 de Espadas", "Valete de Espadas", "Dama de Espadas", "Rei de Espadas", "Ás de Ouros", "2 de Ouros", "3 de Ouros", "4 de Ouros", "5 de Ouros", "6 de Ouros", "7 de Ouros", "8 de Ouros", "9 de Ouros", "10 de Ouros", "Valete de Ouros", "Dama de Ouros", "Rei de Ouros", "Ás de Paus", "2 de Paus", "3 de Paus", "4 de Paus", "5 de Paus", "6 de Paus", "7 de Paus", "8 de Paus", "9 de Paus", "10 de Paus", "Valete de Paus", "Dama de Paus", "Rei de Paus"};
-            Random random = new Random();
-            int numero = random.Next(0, 51);
-            Console.WriteLine ("A carta sorteada é: " + baralho[numero]);
-            break;
+        case 5: //COLLECTION 52 CARTAS DE BARALHO
+
+
+
 
         case 6:
             List<int> lista1 = new List<int>();
@@ -121,16 +119,6 @@ internal class ListaQuatro
             {
                 Console.WriteLine (i);
             }
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
-            Console.WriteLine ("Atendendo: " + fila.Dequeue());
             break;
 
         case 8:
@@ -168,24 +156,25 @@ internal class ListaQuatro
             }
             break;
 
-        case 10:
-            List<string> lista4 = new List<string>();
-            List<string> lista5 = new List<string>();
-            List<string> lista6 = new List<string>();
-            for (int i = 0; i < 10; i++)
+        case 10: // 20 VALORES , CALCULE A MEDIA E IMPRIMA OS VALORES INFERIORES A MEDIA
+            double[] array7 = new double[20];
+            double soma3 = 0;
+            for (int i = 0; i < 20; i++)
             {
-                Console.WriteLine ("Digite o valor " + (i + 1) + " da lista 1: ");
-                lista4.Add(Console.ReadLine());
-                Console.WriteLine ("Digite o valor " + (i + 1) + " da lista 2: ");
-                lista5.Add(Console.ReadLine());
+                Console.WriteLine ("Digite o valor " + (i + 1) + ": ");
+                array7[i] = double.Parse(Console.ReadLine());
+                soma3 += array7[i];
             }
-            lista6.AddRange(lista4);
-            lista6.AddRange(lista5);
-            foreach (string i in lista6)
+            double media3 = soma3 / 20;
+            Console.WriteLine ("A média é: " + media3);
+            for (int i = 0; i < 20; i++)
             {
-                Console.WriteLine (i);
+                if (array7[i] < media3)
+                {
+                    Console.WriteLine ("O valor " + array7[i] + " é inferior a média.");
+                }
             }
-            break;
+            break;            
 
         default:
             Console.WriteLine ("Opção inválida");
@@ -196,14 +185,3 @@ internal class ListaQuatro
 }
 
     
-
-//1) Crie um programa que questione a quantidade de notas a ser informada, receba as notas e calcule a média. 
-//2) Crie um programa que imprima um arrays com Foreach. 
-//3) Crie um programa que leia 10 valores double e salve em um array, depois imprima esses valores. 
-//4) Crie um programa que leia 10 valores int e salve em um array, depois imprima se esses valores são pares ou ímpares. 
-//5) Crie um programa que possua uma collection que represente as 52 cartas do baralho, imrpima elas. 
-//6) Crie um programa que una duas listas de inteiros. 
-//7) Crie um programa que simule a fila de atendimento de um banco.
-// 8) Crie um programa que receba a temperatura média de cada mês do ano e após exiba a temperatura média do ano.
-// 9) Crie dois arrays de 10 posições e depois gere um terceiro array com os valores intercalados desses dois arrays, ao final, imprima os 3.
-// 10) Crie um programa que leia 20 valores, calcule a média aritmética desses valores e imprima os valores que são inferiores a esta média.

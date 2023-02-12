@@ -1,0 +1,5 @@
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeDois\obj\Debug\net7.0\atividadeDois.csproj.AssemblyReference.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeDois\obj\Debug\net7.0\atividadeDois.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeDois\obj\Debug\net7.0\atividadeDois.AssemblyInfoInputs.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeDois\obj\Debug\net7.0\atividadeDois.AssemblyInfo.cs
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeDois\obj\Debug\net7.0\atividadeDois.csproj.CoreCompileInputs.cache

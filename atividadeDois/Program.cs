@@ -41,8 +41,9 @@ internal class ListaDois
                     Console.WriteLine("Reprovado");
                 }
                 break;
+
             case 2:
-                Console.WriteLine("Digite o número do mês: ");
+                Console.WriteLine("Digite o número do mês:");
                 int mes = int.Parse(Console.ReadLine());
 
                 switch (mes)
@@ -87,7 +88,7 @@ internal class ListaDois
                         Console.WriteLine("Mês inválido");
                         break;
                 }
-                case 3: 
+                case 3: // jogo da forca
                 Console.WriteLine("Digite a palavra oculta: ");
                 string palavraOculta = Console.ReadLine();
                 Console.WriteLine("Digite a quantidade de tentativas: ");
@@ -96,7 +97,7 @@ internal class ListaDois
                 int erros = 0;
                 int acertos = 0;
 
-                for (int i = 0; i < tentativas; i++)
+                for (int i = 0; i < tentativas; i++)        
                 {
                     Console.WriteLine("Digite uma letra: ");
                     string letra = Console.ReadLine();
@@ -168,8 +169,13 @@ internal class ListaDois
                 double total = 0;
                 int contador = 0;
 
-                while (nota >= 0)
+                if (nota < 0)
                 {
+                    Console.WriteLine("Nota inválida");
+                }
+
+                else{
+                    (nota > 0 && nota <= 10)
                     total += nota;
                     contador++;
 
@@ -180,6 +186,8 @@ internal class ListaDois
                 double media1 = total / contador;
                 Console.WriteLine("A média é: " + media1);
                 break; 
+
+                
 
             case 8:
                 Console.WriteLine("Digite um número: ");

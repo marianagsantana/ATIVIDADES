@@ -1,0 +1,15 @@
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\bin\Debug\net7.0\atividadeQuatro.exe
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\bin\Debug\net7.0\atividadeQuatro.deps.json
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\bin\Debug\net7.0\atividadeQuatro.runtimeconfig.json
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\bin\Debug\net7.0\atividadeQuatro.dll
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\bin\Debug\net7.0\atividadeQuatro.pdb
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.csproj.AssemblyReference.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.AssemblyInfoInputs.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.AssemblyInfo.cs
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.dll
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\refint\atividadeQuatro.dll
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.pdb
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\atividadeQuatro.genruntimeconfig.cache
+C:\Users\Facu\Documents\DESKTOP\PROJETO\ATIVIDADES\atividadeQuatro\obj\Debug\net7.0\ref\atividadeQuatro.dll
